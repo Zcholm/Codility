@@ -1,4 +1,4 @@
-
+// 100% correct, 0% performance. O(N * M)
 vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {
     int N = S.size();
     int M = P.size();
