@@ -22,6 +22,9 @@ vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {
             if (ans[k] > impact[i]) {
                 ans[k] = impact[i];
             }
+            if (ans[k] == 1) {
+                break;
+            }
         }
     }
     return ans;
