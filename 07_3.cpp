@@ -1,0 +1,1 @@
+// Use the code from 07_1.cpp, it gives 100% for this one as well.
